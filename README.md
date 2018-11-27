@@ -1,2 +1,15 @@
 # TransAnimation
 过渡动画
+
+自定义转场动画几个**protocol**
+- UIViewControllerContextTransitioning
+- UIViewControllerAnimatedTransitioning
+- UIViewControllerInteractiveTransitioning
+- UIViewControllerTransitioningDelegate
+- UINavigationControllerDelegate
+- UITabBarControllerDelegate
+
+分类：
+- 描述ViewController转场的：UIViewControllerTransitioningDelegate,UINavigationControllerDelegate,UITabBarControllerDelegate
+- 动画内容：UIViewControllerAnimatedTransitioning,UIViewControllerInteractiveTransitioning
+- 动画上下文：UIViewControllerContextTransitioning
